@@ -1,0 +1,30 @@
+Script started on Tue Apr  1 14:36:03 2014
+[?1034hbash-3.2$ exit./testExecg++ exPtrs.cpp -o testExec\[K[C[C[C[C[C[C[C[C[C[C[16P./testExecg++ exPtrs.cpp -o testExec[C[C[C[C[C[C[C[C[C[Cls[Kscript part1.script[C[C[C[C[C[C[C[C[C[C[9P./testExecscript part1.script[C[C[C[C[C[C[C[C[C[Cls[Kg++ exPtrs.cpp -o testExec[K[K[K[K[K[K[K[K[K[K[Kcomple[K[K[K[K[K[KComle[K[Kplex.cpp -o testExec
+bash-3.2$ ./testExec
+
+Part 3 - Dynamically Instantiating Objects 
+Pointer cmpPtr1 has the data: 0x0
+Pointer cmpPtr2 has the data: 0x0
+Using cmpPtr1, the dynamic variable is at location 0x7fea534039b0
+Using cmpPtr2, the dynamic variable is at location 0x7fea534039c0
+Using cmpPtr1, the data stored in the dynamic Complex object is 0
+Using cmpPtr2, the data stored in the dynamic Complex object is 0
+Draw diagrams to illustrate the above 
+
+
+
+
+
+
+enter complex number 1: 1 2
+enter complex number 2: 2 3 4
+Using cmpPtr1, the data stored in the dynamic Complex object is 1+2i
+Using cmpPtr2, the data stored in the dynamic Complex object is 3+4i
+Draw diagrams to illustrate the above and explain what happened
+
+
+
+bash-3.2$ exit
+exit
+
+Script done on Tue Apr  1 14:36:30 2014
