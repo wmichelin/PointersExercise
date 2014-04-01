@@ -1,7 +1,15 @@
-//Walter Michelin Tokio Nagamoto 
-// exPtrs.cpp
-// Programmed By: Monisha Pulimood to illustrate working with pointers
-// DO: Add maintenance documentation
+//  A simple exercise demonstrate the use of pointers
+//  Programmed by: Walter Michelin, Tokio Nakamoto
+
+//  Name: Tokio Nakamoto, Walter Michelin
+//  Course: CSC 415
+//  Semester: Spring 2014
+//  Instructor: Dr. Pulimood
+//  Exercise: PointerExercise
+//  Description: To learn how pointers are implemented in a program.
+//  Filename: exPtrs.cpp
+//  Last modified on: April, 1, 2014
+
 
 #include <iostream>
 #include "Complex.h"
