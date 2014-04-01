@@ -1,0 +1,48 @@
+Script started on Tue Apr  1 14:16:40 2014
+[?1034hbash-3.2$ ./testExecg++ exPtrs.cpp -o testExec
+[1mexPtrs.cpp:231:5: [0m[0;1;35mwarning: [0m[1m'/*' within block comment [-Wcomment][0m
+    /********************* Begin Part 3 **************************
+[0;1;32m    ^
+[0m[1mexPtrs.cpp:270:5: [0m[0;1;35mwarning: [0m[1m'/*' within block comment [-Wcomment][0m
+    /********************** End Part 3 ***************************/
+[0;1;32m    ^
+[0m2 warnings generated.
+bash-3.2$ g++ exPtrs.cpp -o testExec[C[C[C[C[C[C[C[C[C[C[16P./testExec
+
+Part 2 - Dynamic Memory Management
+Pointer ptrC has the data: 0x0
+Pointer ptrD has the data: 0x0
+Using ptrC, the dynamic variable is at location 0x7ff0e1c039b0
+Using ptrD, the dynamic variable is at location 0x7ff0e1c039c0
+Using ptrC, the data store in the dynamic variable is 0
+Using ptrD, the data store in the dynamic variable is 0
+Draw diagrams to illustrate the above 
+
+
+
+
+
+
+Using ptrC, the data stored in the dynamic variable is 125
+Using ptrD, the data stored in the dynamic variable is 504
+Draw diagrams to illustrate the above and explain what happened
+
+
+After the assignment operation:  
+
+Using ptrC, the dynamic variable is at location 0x7ff0e1c039b0
+Using ptrC, the data stored in the dynamic variable is 125
+
+Using ptrD, the dynamic variable is at location 0x7ff0e1c039b0
+Using ptrD, the data stored in the dynamic variable is 125
+Draw diagrams to illustrate the above and explain what happened
+
+
+
+
+
+
+bash-3.2$ exit
+exit
+
+Script done on Tue Apr  1 14:16:46 2014

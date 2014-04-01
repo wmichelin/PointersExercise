@@ -157,25 +157,28 @@ int main (void)
      
      cout << "\nPart 2 - Dynamic Memory Management" << endl;
      // DO: Declare pointer variables ptrC and ptrD that refer to the integer data
-     
+     int *ptrC;
+     int *ptrD;
      // DO: Complete the cout statements to reflect the display messages
-     cout << "Pointer ptrC has the data: " << ........  << endl;
-     cout << "Pointer ptrD has the data: " << ........  << endl;
+     cout << "Pointer ptrC has the data: " << ptrC  << endl;
+     cout << "Pointer ptrD has the data: " << ptrD  << endl;
      
      // DO: Dynamically allocate space for an integer variable.
      // DO: Make ptrC 'point to' this dynamic variable.
+     ptrC = new int;
      
      // DO: Dynamically allocate space for another integer variable.
      // DO: Make ptrD 'point to' this dynamic variable.
+     ptrD = new int;
      
      // DO: Complete the cout statements to reflect the display messages
-     cout << "Using ptrC, the dynamic variable is at location " << ........  << endl;
-     cout << "Using ptrD, the dynamic variable is at location " << ........  << endl;
+     cout << "Using ptrC, the dynamic variable is at location " << ptrC  << endl;
+     cout << "Using ptrD, the dynamic variable is at location " << ptrD  << endl;
      
      // DO: Use pointers ptrC and ptrD to display the data stored in the
      //     dynamic variables
-     cout << "Using ptrC, the data store in the dynamic variable is " << ........  << endl;
-     cout << "Using ptrD, the data store in the dynamic variable is " << ........  << endl;
+     cout << "Using ptrC, the data store in the dynamic variable is " << *ptrC  << endl;
+     cout << "Using ptrD, the data store in the dynamic variable is " << *ptrD  << endl;
      
      cout << "Draw diagrams to illustrate the above " << endl << endl;
      cout << endl << endl;
@@ -183,38 +186,42 @@ int main (void)
      
      // DO: Use pointer ptrC to store the value 125 in one dynamic variable
      // DO: Use pointer ptrD to store the value 504 in the other dynamic variable
-     
+     *ptrC = 125;
+     *ptrD = 504;
      
      // DO: Use pointers ptrC and ptrD to display the data now stored in the
      //     dynamic variables
-     cout << "Using ptrC, the data stored in the dynamic variable is " << ........  << endl;
-     cout << "Using ptrD, the data stored in the dynamic variable is " << ........  << endl;
+     cout << "Using ptrC, the data stored in the dynamic variable is " << *ptrC  << endl;
+     cout << "Using ptrD, the data stored in the dynamic variable is " << *ptrD  << endl;
      
      cout << "Draw diagrams to illustrate the above and explain what happened" << endl << endl;
      
      // DO: Assign ptrC to ptrD;
+     delete ptrD;
+     ptrD = ptrC;
      
      
      cout << "\nAfter the assignment operation:  " << endl;
      
      //DO: use 'ptrC' to display the value
-     cout << "\nUsing ptrC, the dynamic variable is at location " << ........ << endl;
+     cout << "\nUsing ptrC, the dynamic variable is at location " << ptrC << endl;
      
      //DO: use 'ptrC' to display the value
-     cout << "Using ptrC, the data stored in the dynamic variable is " << ........ << endl;
+     cout << "Using ptrC, the data stored in the dynamic variable is " << *ptrC << endl;
      
      //DO: use 'ptrD' to display the value
-     cout << "\nUsing ptrD, the dynamic variable is at location " << ........ << endl;
+     cout << "\nUsing ptrD, the dynamic variable is at location " << ptrD << endl;
      
      //DO: use 'ptrD' to display the value
-     cout << "Using ptrD, the data stored in the dynamic variable is " << ........ << endl;
+     cout << "Using ptrD, the data stored in the dynamic variable is " << *ptrD << endl;
      
      cout << "Draw diagrams to illustrate the above and explain what happened" << endl << endl;
      cout << endl << endl;
      cout << endl << endl << endl;
      
      // DO: Release any dynamically allocated memory
-     
+     delete ptrC;
+
      /********************** End Part 2 **************************
     
     //DO: Comment out the code for Parts 1 and 2 when doing Part 3
