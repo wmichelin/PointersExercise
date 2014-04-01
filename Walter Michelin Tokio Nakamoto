@@ -1,0 +1,75 @@
+Walter Michelin Tokio Nakamoto
+
+Part 1 - Pointer variables
+Pointer ptrA has the data: 0x0
+Pointer ptrB has the data: 0x0
+
+Variable a is stored at address  0x7fff5d47e758
+Pointer ptrA is stored at address 0x7fff5d47e748
+Variable b is stored at address  0x7fff5d47e754
+Pointer ptrB is stored at address 0x7fff5d47e740
+Draw diagrams to illustrate the above 
+
+
+
+
+
+
+
+ Using a, Variable a holds the value 225
+Pointer ptrA holds the value 0x7fff5d47e758
+
+ Using ptrA, Variable a holds the value 225
+
+
+
+After 1st assignment operation:  
+
+The data stored in ptrA  is  0x7fff5d47e758
+Using ptrA, the data stored in a  is 225
+Using a, the data stored in a  is 225
+
+ ptrA is at location 0x7fff5d47e748
+
+ Using ptrA, a is at location 0x7fff5d47e758
+
+ Using a, a is at location 0x7fff5d47e758
+The data stored in ptrB  is 225
+Using ptrB, the data stored in b  is 225
+Using b, the data stored in b  is 167
+
+ Using ptrB, b is at location 0x7fff5d47e758
+
+ Using b, b is at location 0x7fff5d47e754
+Draw diagrams to illustrate the above and explain what happened
+
+
+
+
+
+
+
+After 2nd assignment operation 
+
+The data stored in ptrA  is  0x7fff5d47e758
+Using ptrA, the data stored in a  is 987
+Using a, the data stored in a  is 987
+
+ ptrA is at location 0x7fff5d47e748
+
+ Using ptrA, a is at location 0x7fff5d47e758
+
+ Using a, a is at location 0x7fff5d47e758
+The data stored in ptrB  is 0x7fff5d47e758
+Using ptrB, the data stored in b  is 987
+Using b, the data stored in b  is 167
+
+ Using ptrB, b is at location 0x7fff5d47e758
+
+ Using b, b is at location 0x7fff5d47e754
+Draw diagrams to illustrate the above and explain what happened
+
+
+
+
+
